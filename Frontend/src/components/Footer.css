@@ -1,0 +1,10 @@
+.footer {
+  background-color: #2e7d32; /* Green color */
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  width: 100vw; /* Full viewport width */
+  box-sizing: border-box;
+  margin-top: 40px;
+}
