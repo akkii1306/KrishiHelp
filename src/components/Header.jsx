@@ -13,7 +13,8 @@ const Header = () => {
         <Link to="/">Home</Link>
         <Link to="/tools">Tools</Link>
         <Link to="/register">Register</Link>
-       
+       <Link to="/chatbot">Chatbot</Link>
+       <Link to="/dashboard">Dashboard</Link>
       </nav>
       <div className="header-right">
         <Globe size={24} className="language-icon" title="Change Language" />
