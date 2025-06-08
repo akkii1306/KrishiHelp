@@ -1,0 +1,72 @@
+.chatbot {
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5faf3;
+  min-height: 100vh;
+}
+
+.chatbot-heading {
+  font-size: 2.8rem;
+  color: rgb(1, 100, 1);
+  margin-bottom: 40px;
+}
+
+.boxes {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.features,
+.guide {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.features {
+  background-color: rgb(1, 60, 1);
+  color: #cde4b5;
+}
+
+.guide {
+  background-color: #cde4b5;
+  color: rgb(1, 60, 1);
+}
+
+.features h3,
+.guide h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.features ul,
+.guide ol {
+  padding-left: 20px;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.start-btn {
+  margin-top: 40px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #a01109;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #ee6059;
+}

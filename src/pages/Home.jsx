@@ -1,23 +1,34 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import img1 from '../assets/images/cropdigi.jpg'
+import img2 from '../assets/images/bots.jpg'
+import img3 from '../assets/images/assist.jpg'
+import icon1 from '../assets/icons/login.png'
+import icon2 from '../assets/icons/dashboard.png'
+import icon3 from '../assets/icons/Ai Assistant.png'
+import icon4 from '../assets/icons/gear.png'
+
+
+
+
 import "./Home.css";
 
 const services = [
   {
     title: "Crop Yield Prediction",
-    image: "/images/cropdigi.jpg", // Replace with actual path
+    image: img1, 
     description:
       "Use AI to forecast crop yields using satellite imagery, weather updates, and soil data for smarter farming decisions."
   },
   {
     title: "Autonomous Farming Bots",
-    image: "/images/bots.jpg",
+    image: img2,
     description:
       "Deploy AI-powered robots and drones to automate planting, harvesting, and crop monitoring to improve efficiency and reduce labor."
   },
   {
     title: "Sustainable Farming Assistant",
-    image: "/images/assist.jpg",
+    image: img3,
     description:
       "Optimize your water, fertilizer, and energy use with our AI assistant, promoting environmentally friendly and cost-effective agriculture."
   }
@@ -58,22 +69,22 @@ const Home = () => {
   <h2>How to Use the Platform</h2>
   <div className="guide-grid">
     <div className="guide-card">
-      <img src="/icons/login.png" alt="Register Icon" />
+      <img src={icon1} alt="Register Icon" />
       <h3>Register / Login</h3>
       <p>Create an account or log in to get started.</p>
     </div>
     <div className="guide-card">
-      <img src="/icons/dashboard.png" alt="Dashboard Icon" />
+      <img src={icon2} alt="Dashboard Icon" />
       <h3>Dashboard</h3>
       <p>Access your agriculture analysis and insights.</p>
     </div>
     <div className="guide-card">
-      <img src="/icons/Ai Assistant.png" alt="AI Assistant Icon" />
+      <img src={icon3} alt="AI Assistant Icon" />
       <h3>AI Assistant</h3>
       <p>Ask questions about farming and get instant help.</p>
     </div>
     <div className="guide-card">
-      <img src="/icons/gear.png" alt="Tools Icon" />
+      <img src={icon4} alt="Tools Icon" />
       <h3>Tools Section</h3>
       <p>Deploy smart farming bots and tools for automation.</p>
     </div>

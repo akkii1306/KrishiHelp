@@ -5,8 +5,11 @@
   background-color: #1c6a3e; 
   color: white;
   padding: 12px 24px;
-  width: 100%;  /* ✅ FIXED: Changed from 100vw */
+  width: 100%;  
   box-sizing: border-box;
+  top:0;
+  position: fixed;
+  z-index: 1000;
 }
 
 
