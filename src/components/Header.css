@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32; 
+  color: white;
+  padding: 12px 24px;
+  width: 100vw; 
+  box-sizing: border-box; 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header-center a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.header-center a:hover {
+  border-bottom: 2px solid white;
+}
+
+.language-icon {
+  cursor: pointer;
+}
