@@ -1,0 +1,39 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment (venv)
+venv/
+ENV/
+
+# Environment variables (do not commit secrets)
+.env
+
+# Local Gradio cache (if any)
+.gradio/
+
+# Temporary or generated files (e.g. audio files, logs, etc.)
+*.mp3
+*.wav
+*.log
+
+# OS artifacts (e.g. .DS_Store, Thumbs.db)
+.DS_Store
+Thumbs.db 
