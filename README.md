@@ -1,12 +1,54 @@
-# React + Vite
+# 🌾 KrishiHelp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KrishiHelp is a sustainable agriculture platform dedicated to empowering farmers and agri-enthusiasts with eco-friendly insights and smart tools. By promoting climate-resilient practices, resource-efficient farming, and data-driven analysis, KrishiHelp helps users make informed decisions that nurture both their crops and the environment. From personalized recommendations to green-tech tools, everything you need for smarter, cleaner farming — all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🧠 AI Assistant for smart agriculture support
+- 📊 Crop analysis form with user-friendly interface
+- 🛠 Tools section with deployable agri-bots (in progress)
+- 🌐 Multilingual support via `react-i18next`
+- 🎨 Responsive UI built using React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```bash
+KrishiHelp/
+├── Frontend/
+│   ├── public/
+│   └── src/
+│       ├── components/    # Header, Footer, Cards etc.
+│       ├── pages/         # Home, Tools, Register, Dashboard etc.
+│       └── assets/        # Images, icons
+└── Backend/               # Optional backend for analysis tools (if applicable)
+```
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, React Router, react-i18next, CSS
+- **Backend**: Node.js, Express (if applicable)
+- **Bundler**: Vite
+- **Version Control**: Git + GitHub
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/akkii1306/KrishiHelp.git
+cd KrishiHelp/Frontend
+```
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+### 3. Start the Development Server
+```bash
+npm run dev
+```
